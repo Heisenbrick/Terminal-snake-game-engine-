@@ -1,17 +1,17 @@
-public class game {
+public class Game{
     
      
  public static void main(String[] args) throws Exception {
          
-      Threads.threads1();
+   Threads.threads1();
         
       
      
-    }  
-   public static void cs(){
+  }  
+  public static void cs(){
      System.err.print("\033[H\033[2j");
      System.out.flush();  
 
-    }
+  }
 
 }

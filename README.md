@@ -1,23 +1,13 @@
-<<<<<<< HEAD
-## Getting Started
+this is my first projet.
+It's a teminal simple snake game (game engine).
+It still unerder progress the aim is to make it a multiplayer compatitive game.
+For now the player(X) can move in 16x16 grid.
+For now only two movement are possible.
+* movedown(press 1 and enter)
+* moveleft(press 2 and enter)
+* to puse the game (enter 3)
+* to resume (enter 4)
+* to end the game (enter 5)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# Terminal-snake-game-engine-
-It's a terminal snake game 
->>>>>>> ac6a99e84033ae06bf8fd8820c7e60a79afb862e
+the game is 100% resposive controls and smooth synchronization and alomost zero latency

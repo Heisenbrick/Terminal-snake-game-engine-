@@ -1,21 +1,30 @@
 public class Threads{
-    public static void threads1(){
-        Thread t1=new Thread(()->{
-              try {
-                Grid.printgrid();
-              } catch (Exception e) {
+
+  public static void threads1(){
+
+    // for grid
+    Thread t1=new Thread(()->{
+
+      try {
+        Grid.printgrid();
+      } catch (Exception e) {
                 
-                e.printStackTrace();
-              }
-        });
-        Thread t2=new Thread(()->{
+          e.printStackTrace();
+        }
+
+    });
+    
+    // for input
+    Thread t2=new Thread(()->{
                
-                Input.scan();
+      Input.scan();
               
-        });
-        t2.start();
-        t1.start();
-    }
+    });
+
+    t2.start();
+    t1.start();
+
+  }
     
    
 }
