@@ -8,10 +8,6 @@ public class Game{
       
      
   }  
-  public static void cs(){
-     System.err.print("\033[H\033[2j");
-     System.out.flush();  
-
-  }
+  
 
 }
